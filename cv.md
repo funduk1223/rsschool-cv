@@ -30,3 +30,6 @@ const myFunction = (ask) =>{
 }
 
 ```
+* __Experience:__ 
+* __Education:__ Saint-Petersburg National Research University of Information Technologies, Mechanics and Optics. Years: 2015-2019. Specialization: mechatronics and robotics
+* __English:__ My english level is B1. I try to improve my level by reading a books and watching video content on english. Also, I sometimes practice with native speaker.
