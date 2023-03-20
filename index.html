@@ -87,11 +87,8 @@
 			<h2>Code examples</h2>
 			<pre>
 				<code>
-					const makeTrueFunc = (ask) =>{
-					if (ask === true) {
-						return !ask;
-					}
-					return ask;
+					function(ask) {
+						return ask === true ? !ask : ask;
 					}
 				</code>
 			</pre>
