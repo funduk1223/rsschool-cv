@@ -24,9 +24,9 @@
 				</section>
 
 			</figure>
-			<section>
+			<div>
 
-			</section>
+			</div>
 		</header>
 		<section>
 			<h2>Summary</h2>
@@ -47,50 +47,54 @@
 			<ul>
 				<li>
 					<h4>Languages:</h4>
+					<ul>
+						<li>Python</li>
+						<li>C#</li>
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>JavaScript</li>
+					</ul>
 				</li>
-				<ul>
-					<li>Python</li>
-					<li>C#</li>
-					<li>HTML</li>
-					<li>CSS</li>
-					<li>JavaScript</li>
-				</ul>
+
 				<li>
 					<h4>VCS:</h4>
+					<ul>
+						<li>Git</li>
+					</ul>
 				</li>
-				<ul>
-					<li>Git</li>
-				</ul>
+
 				<li>
 					<h4>IDE:</h4>
+					<ul>
+						<li>PyCharm IDE</li>
+						<li>Visual Studio</li>
+					</ul>
 				</li>
-				<ul>
-					<li>PyCharm IDE</li>
-					<li>Visual Studio</li>
-				</ul>
+
 				<li>
 					<h4>Other software:</h4>
+					<ul>
+						<li>Blender</li>
+						<li>Unity</li>
+						<li>Adobe Photoshop | After Effects | Premiere</li>
+					</ul>
 				</li>
-				<ul>
-					<li>Blender</li>
-					<li>Unity</li>
-					<li>Adobe Photoshop | After Effects | Premiere</li>
-				</ul>
+
 			</ul>
 		</section>
 
 		<section>
 			<h2>Code examples</h2>
-			<code>
-				<pre>
-const makeTrueFunc = (ask) =>{
-if (ask === true) {
-	return !ask;
-}
-return ask;
-}		   
-				</pre>
-			</code>
+			<pre>
+				<code>
+					const makeTrueFunc = (ask) =>{
+					if (ask === true) {
+						return !ask;
+					}
+					return ask;
+					}
+				</code>
+			</pre>
 		</section>
 
 		<section>
@@ -103,12 +107,12 @@ return ask;
 			<table class="table">
 				<thead>
 					<tr>
-						<th>Educational institution</th>
-						<th>Specialization</th>
-						<th>Years</th>
+						<th scope="col">Educational institution</th>
+						<th scope="col">Specialization</th>
+						<th scope="col">Years</th>
 					</tr>
 				</thead>
-				<tbody style="font-style : normal">
+				<tbody class="table-row">
 					<tr>
 						<td>Saint-Petersburg National Research University of Information Technologies,
 							Mechanics and Optics</td>
